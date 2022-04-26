@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+    </head>
+    <style>
+        #advanced {
+            margin-top: 40px;
+            margin-left: 90px;
+            left: 15%;
+            top: 38%;
+            position: absolute;
+            border-radius: 4px;
+            color: white;
+            background-color: blue;
+            font-size: 16px;
+            font-family: arial,sans-serif;
+        }
+
+        table {
+            font-size: 16px;
+            font-family: arial,sans-serif;
+        }
+
+        .ad {
+            color: red;
+            font-family: arial,sans-serif;
+        }
+
+        div {
+            font-size: 18px;
+            font-family: arial,sans-serif;
+            color: blue;
+            margin-top: -30px;
+            margin-left: 1200px;
+        }
+        
+    </style>
+    
+    <img src="google.png" width="120" />
+    <div>
+        <a href="index.html" target="_top">Back to Google</a>
+        <a href="imagenes.html" target="_top">Google Images</a></div>
+    </div>
+    <h2 class="ad">Advanced Search</h2>
+    <form action="https://google.com/search">    
+        <table class="text-input-table">
+            <tr>
+                <td>
+                    <h4>Find pages with...</h4>
+                </td>
+            </tr>
+            <tr>
+                <td> All of these words: </td>
+                <td> <input name="as_q" type="text" class="searchbar-sm"> </td>
+            </tr>
+            <tr>
+                <td>This exact word or phrase: </td>
+                <td><input name="as_epq" type="text" class="searchbar-sm"></td>
+            </tr>   
+            <tr>
+                <td> Any of these words: </td>
+                <td> <input name="as_oq" type="text" class="searchbar-sm"> </td>
+            </tr>
+            <tr>
+                <td>This exact word or phrase: </td>
+                <td><input name="as_epq" type="text" class="searchbar-sm"></td>
+            </tr>
+            <tr>
+                <td>None of these words: </td>
+                <td><input name="as_eq" type="text" class="searchbar-sm"> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input id="advanced" type="submit" value="Advanced Search" class="searchbutton"></td>
+            </tr>
+        </table>
+        
+    </form>
+
+</html>
